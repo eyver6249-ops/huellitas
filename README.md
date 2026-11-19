@@ -1,4 +1,4 @@
-# tecniya
+# huellitas
 
 A new Flutter project.
 
