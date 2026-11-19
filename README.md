@@ -1,6 +1,24 @@
 # huellitas
 
 A new Flutter project.
+# Huellitas
+
+App móvil (Flutter + Supabase) para reportar mascotas perdidas con GPS y foto.
+Proyecto final de Optativa IV.
+
+## Funciones
+- Reportar una mascota perdida con foto, GPS y contacto
+- Lista de reportes en tiempo real, con filtros
+- Avistamientos de la comunidad (GPS, foto y comentario)
+- Modo sin conexión: el reporte se guarda y se sincroniza después
+
+## Tecnologías
+Flutter, Dart, Supabase (PostgreSQL, Auth, Storage), SQLite.
+
+## Cómo ejecutarlo
+1. Crear un proyecto en Supabase y ejecutar `supabase/schema_mascotas.sql` en el SQL Editor.
+2. Poner la URL y la clave en `lib/config.dart`.
+3. `flutter pub get` y `flutter run`.
 
 ## Getting Started
 
